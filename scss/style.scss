@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.section__content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  img {
+    width: 300px;
+  }
+  .allohu-akbar {
+    display: none;
+    width: 500px;
+  }
+  .subhan-allah {
+    display: none;
+  }
+  .alhamdulillah {
+    display: none;
+  }
+  input {
+    text-align: center;
+    top: 56px;
+    width: 126px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 56px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 255, 26);
+    position: absolute;
+  }
+  .delete {
+    position: absolute;
+    right: 174px;
+    top: 124px;
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+  }
+  .add {
+    position: absolute;
+    right: 190px;
+    top: 158px;
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    background-color: rgb(252, 252, 252);
+    border: none;
+    cursor: pointer;
+  }
+}
